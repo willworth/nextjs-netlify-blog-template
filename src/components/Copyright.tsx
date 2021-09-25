@@ -1,7 +1,9 @@
 export default function Copyright() {
+  const d = new Date();
+  const year = d.getFullYear();
   return (
     <>
-      <p>&copy; 2020</p>
+      <p>&copy; {year}</p>
       <style jsx>
         {`
           p {

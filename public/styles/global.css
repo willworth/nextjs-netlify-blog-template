@@ -6,6 +6,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: #fff;
   color: #222;
+  background-color: darkslategray;
+  color: wheat;
   font-weight: 200;
   height: 100%;
 }

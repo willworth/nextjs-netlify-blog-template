@@ -1,19 +1,28 @@
 {
   "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "site_title": "willworth.dev",
+  "site_description": "A developer blog",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "will worth"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "developer"
     },
     {
-      "keyword": "React"
+      "keyword": "ethereum"
+    },
+    {
+      "keyword": "web3"
+    },
+    {
+      "keyword": "crypto"
+    },
+    {
+      "keyword": "blockchain"
     }
   ],
-  "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "posts_per_page": 10,
+  "twitter_account": "@willworthdev",
+  "github_account": "willworth"
 }

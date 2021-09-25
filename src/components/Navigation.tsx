@@ -13,7 +13,7 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>about</a>
+              <a className={router.pathname === "/" ? "active" : null}>home</a>
             </Link>
           </li>
           <li>
@@ -24,6 +24,17 @@ export default function Navigation() {
                 }
               >
                 blog
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact">
+              <a
+                className={
+                  router.pathname.startsWith("/contact") ? "active" : null
+                }
+              >
+                contact
               </a>
             </Link>
           </li>
@@ -44,6 +55,7 @@ export default function Navigation() {
               position: fixed;
               top: 0;
               background-color: #fff;
+              background-color: darkslategrey;
               display: flex;
               flex-direction: column;
               justify-content: center;

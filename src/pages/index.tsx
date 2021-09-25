@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Example from "../components/example";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
@@ -12,13 +13,16 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
-          </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <h1>willworth.dev</h1>
+          <h2>A developer blog.</h2>
           <SocialList />
+          <p>
+            Welcome - I'm a full stack dev with experience mostly working with
+            javascript- react, node, etc. I'm interested in blockchain and web3
+            - and trying to learn in public :)
+          </p>
         </div>
+        <Example />
       </div>
       <style jsx>{`
         .container {
@@ -46,6 +50,10 @@ export default function Index() {
           margin-top: 0.275em;
           color: #9b9b9b;
           letter-spacing: 0.05em;
+        }
+        p {
+          max-width: 50%;
+          font-size: 1.2rem;
         }
 
         @media (min-width: 769px) {
