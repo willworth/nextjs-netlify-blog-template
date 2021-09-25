@@ -1,17 +1,23 @@
 tags:
   - slug: document
     name: document
-  - slug: mock
-    name: mock
   - slug: style
     name: style
-  - slug: license
-    name: license
   - slug: mdx
     name: mdx
   - slug: markdown
     name: markdown
-  - slug: banana
-    name: banana
   - slug: cats
     name: cats
+  - slug: web3
+    name: web3
+  - slug: blockchain
+    name: blockchain
+  - slug: ethereum
+    name: ethereum
+  - slug: cryptocurrency
+    name: cryptocurrency
+  - slug: nft
+    name: nft
+  - slug: javascript
+    name: javascript

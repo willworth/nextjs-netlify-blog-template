@@ -2,7 +2,7 @@
 slug: rich-content-with-mdx
 title: Rich Content with MDX
 date: 2020-06-08
-author: wutali
+author: willworth
 tags:
   - style
   - mdx
@@ -14,9 +14,17 @@ MDX supports to import React component and embed it directly as markdown content
 
 <p>
   <InstagramEmbed
+    clientAccessToken="<appId>|<clientToken>"
     url="https://instagr.am/p/Zw9o4/"
-    maxWidth={320}
-    hideCaption={true}
+    maxWidth={375}
+    hideCaption={false}
+    containerTagName="div"
+    injectScript
+    protocol=""
+    onLoading={() => {}}
+    onSuccess={() => {}}
+    onAfterRender={() => {}}
+    onFailure={() => {}}
   />
 </p>
 

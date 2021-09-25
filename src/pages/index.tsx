@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Example from "../components/example";
+import Example from "../components/Example";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
@@ -14,12 +14,15 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>willworth.dev</h1>
-          <h2>A developer blog.</h2>
+          <h2>A web3 learning developer blog.</h2>
           <SocialList />
           <p>
-            Welcome - I'm a full stack dev with experience mostly working with
-            javascript- react, node, etc. I'm interested in blockchain and web3
-            - and trying to learn in public :)
+            Hi - I'm a full stack dev with a background in javascript- react,
+            node, etc.
+          </p>
+          <p>
+            I'm interested in blockchain and web3 - and trying to{" "}
+            <strong>learn in public</strong>.
           </p>
         </div>
         <Example />
