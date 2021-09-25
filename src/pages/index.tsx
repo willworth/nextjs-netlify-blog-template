@@ -1,9 +1,10 @@
 import Layout from "../components/Layout";
-import Example from "../components/Example";
+// import Example from "../components/Example";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Image from "next/image";
 
 export default function Index() {
   return (
@@ -14,8 +15,17 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>willworth.dev</h1>
-          <h2>A web3 learning developer blog.</h2>
-          <SocialList />
+          <h2>A web3 developer blog.</h2>
+
+          <Image
+            priority
+            // src="/images/will.jpg"
+            // className={styles.willamyimg}
+            src="/images/willamy.png"
+            height={300}
+            width={600}
+            alt={"name"}
+          />
           <p>
             Hi - I'm a full stack dev with a background in javascript- react,
             node, etc.
@@ -24,8 +34,9 @@ export default function Index() {
             I'm interested in blockchain and web3 - and trying to{" "}
             <strong>learn in public</strong>.
           </p>
+          <SocialList />
         </div>
-        <Example />
+        {/* <Example /> */}
       </div>
       <style jsx>{`
         .container {
@@ -55,7 +66,7 @@ export default function Index() {
           letter-spacing: 0.05em;
         }
         p {
-          max-width: 50%;
+          max-width: 90%;
           font-size: 1.2rem;
         }
 

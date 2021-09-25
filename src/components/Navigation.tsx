@@ -66,7 +66,8 @@ export default function Navigation() {
               position: fixed;
               top: 0;
               background-color: #fff;
-              background-color: darkslategrey;
+              background-color: #1b2432;
+              background-color: #121420;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -87,7 +88,7 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: #b76d68;
             }
 
             @media (min-width: 769px) {
